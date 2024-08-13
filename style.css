@@ -137,7 +137,7 @@ section.faixaHead {
 }
 
 .btn-primary:hover {
-    background: var(--button-primary-bg);
+    background: var(--button-primary-bg) !important;
     transform: scaleX(1.1);
     color: var(--button-primary-text-hover-bg) !important;
 }
