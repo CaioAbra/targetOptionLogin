@@ -1,5 +1,5 @@
 :root {
-    --faixaHead-bg-color: linear-gradient(144.17deg, rgba(0, 117, 255, 0) 8.55%, rgba(0, 117, 255, 0.3) 66.95%);
+    --faixaHead-bg-color: rgba(255, 102, 52, 1);
 
     --body-bg-color: rgb(12, 14, 34);
 
@@ -10,9 +10,9 @@
 
     --button-primary-bg: rgb(12, 14, 34);
 
-    --button-primary-hover-bg: rgba(0, 117, 255, 0.3);
-    --button-primary-text-hover-bg: rgba(255, 102, 52, 1);
-    --button-primary-text: #FFFFFF;
+    --button-primary-hover-bg: rgba(255, 102, 52, 1);
+    /* --button-primary-text-hover-bg: rgba(255, 102, 52, 1); */
+    --button-primary-text: rgb(12, 14, 34);
 
     --input-bg-color: rgb(12, 14, 34);
     --input-text-color: #ffffff;
@@ -137,9 +137,9 @@ section.faixaHead {
 }
 
 .btn-primary:hover {
-    background: var(--button-primary-bg) !important;
     transform: scaleX(1.1);
-    color: var(--button-primary-text-hover-bg) !important;
+    background-color: var(--button-primary-hover-bg) !important;
+    color: var(--button-primary-text) !important;
 }
 
 h2 {
